@@ -1,0 +1,6 @@
+mystring = 'this is a test'
+def area(mystring):
+  if mystring[-6:] == 'ac.uk.':
+    return True
+    return False
+area(mystring)
