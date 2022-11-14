@@ -14,3 +14,4 @@ while value_entered: # looping sequence
   break # loop is terminated
 print("Programme terminated") # says loop terminated
 
+# Make sure to sure to not just copy and make sure to take screenshots and testing of the code! 
