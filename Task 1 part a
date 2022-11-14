@@ -1,0 +1,16 @@
+print("This is a calculator which converts light years to kilometers")
+value_entered = float(input("Enter a certain number in light years?")) # first user input / asks the question
+
+
+while value_entered: # looping sequence 
+ number_km = float(0.00000000000010570) # light year formulae
+ result =  value_entered/ number_km # light year to kilometers formulae
+ print(str(result) + " km") # displays the results
+ result = float(value_entered) # changes 1st number input back to a float
+ value_entered2 = (input("Do you want to restart? if so please say yes or no")) # 2nd question to user / 2nd user input
+ if value_entered2 == "yes": # detects the answer yes
+     value_entered = float(input("Once again enter a certain number in light years?")) # 3rd question to user / 3rd user input -> sequence in repeat
+ if value_entered2 == "no":  # detects the answer no
+  break # loop is terminated
+print("Programme terminated") # says loop terminated
+
