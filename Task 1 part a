@@ -15,3 +15,6 @@ while value_entered: # looping sequence
 print("Programme terminated") # says loop terminated
 
 # Make sure to sure to not just copy and make sure to take screenshots and testing of the code! 
+
+To submit this, you must submit a file called task1_c.py. Also, in the word document submission, you must list your code and take screen shots of two test cases. 
+
