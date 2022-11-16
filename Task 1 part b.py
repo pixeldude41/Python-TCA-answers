@@ -15,8 +15,9 @@ def is_dot_com(mystring):
 
 
 import doctest
-doctest.testmod(verbose=True)
+doctest.testmod(verbose=True) # when to import doctest etc 
 
+-----------------------------------------------------------------------------------
 # Test passed on console 
 PS C:\Users\lucas\OneDrive\Desktop\Website> & C:/Python310/python.exe c:/Users/lucas/OneDrive/Desktop/Website/exam/designrecipe4.py
 Trying:
